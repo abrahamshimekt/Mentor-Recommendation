@@ -37,6 +37,9 @@ urlpatterns = [
     path("updateinterest/<int:pk>",updateInterest),
     path("removeinterest/<int:pk>",deleteInterest),
 
+     path('register', register, name='register'),
+    path('login', login, name='login'),
+
     
 ]
 

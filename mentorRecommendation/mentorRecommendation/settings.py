@@ -52,6 +52,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'mentorRecommendation.urls'
+AUTH_USER_MODEL = 'recommendation.User'
 
 TEMPLATES = [
     {
